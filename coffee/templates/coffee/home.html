@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>FELL GOOD COFFEE</h1>
+
+<div class="row">
+    {% for coffee  in coffee %}
+        <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="{{coffee.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{coffee.name}}</h5>
+              <p class="card-text">${{ coffee.price}}</p>
+              <a  class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    <!-- <li>{{coffee.name}} (${{coffee.price}})</li> -->
+    
+
+{% endblock content %}
+
+        
