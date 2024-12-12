@@ -1,7 +1,7 @@
 Sure! Here’s a standard template for your `README.md` file in English that you can use for your GitHub repository:
 
 ```markdown
-# Coffee Showcase
+# Coffee Shop
 
 This project is a simple website that displays various types of coffee. It is developed using **Python** and **Django**, and designed with **HTML**, **CSS**, and **JavaScript**. The site showcases different coffee types, such as Turkish coffee and bitter coffee, along with images and prices.
 
